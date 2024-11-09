@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLAdjustmentTool/CLAdjustmentTool.h"
+#import "ImageTools/CLAdjustmentTool/CLAdjustmentTool.h"
 
 static NSString* const kCLAdjustmentToolSaturationIconName = @"saturationIconAssetsName";
 static NSString* const kCLAdjustmentToolBrightnessIconName = @"brightnessIconAssetsName";

@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/ToolSettings/UIView+CLImageToolInfo.h"
+#import "ImageTools/ToolSettings/UIView+CLImageToolInfo.h"
 
 #import <objc/runtime.h>
 

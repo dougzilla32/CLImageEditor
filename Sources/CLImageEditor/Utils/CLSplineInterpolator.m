@@ -6,7 +6,7 @@
 //  Reference: http://www5d.biglobe.ne.jp/%257estssk/maze/spline.html
 //
 
-#import "include/Utils/CLSplineInterpolator.h"
+#import "Utils/CLSplineInterpolator.h"
 
 
 @interface CLSplineCalculator : NSObject

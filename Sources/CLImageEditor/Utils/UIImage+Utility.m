@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/Utils/UIImage+Utility.h"
+#import "Utils/UIImage+Utility.h"
 
 #import <Accelerate/Accelerate.h>
 

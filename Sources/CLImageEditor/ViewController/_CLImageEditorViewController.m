@@ -5,9 +5,9 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ViewController/_CLImageEditorViewController.h"
+#import "ViewController/_CLImageEditorViewController.h"
 
-#import "include/ImageTools/CLImageToolBase.h"
+#import "ImageTools/CLImageToolBase.h"
 
 
 #pragma mark- _CLImageEditorViewController

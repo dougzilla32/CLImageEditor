@@ -5,10 +5,10 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/ToolSettings/CLImageToolInfo+Private.h"
+#import "ImageTools/ToolSettings/CLImageToolInfo+Private.h"
 
-#import "include/ImageTools/ToolSettings/CLImageToolProtocol.h"
-#import "include/Utils/CLClassList.h"
+#import "ImageTools/ToolSettings/CLImageToolProtocol.h"
+#import "Utils/CLClassList.h"
 
 
 @interface CLImageToolInfo()

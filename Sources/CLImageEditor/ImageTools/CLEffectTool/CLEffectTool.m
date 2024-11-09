@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLEffectTool/CLEffectTool.h"
+#import "ImageTools/CLEffectTool/CLEffectTool.h"
 
 
 @interface CLEffectTool()

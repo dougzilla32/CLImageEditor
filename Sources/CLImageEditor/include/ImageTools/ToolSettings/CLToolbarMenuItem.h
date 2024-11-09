@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "include/ImageTools/ToolSettings/UIView+CLImageToolInfo.h"
+#import "ImageTools/ToolSettings/UIView+CLImageToolInfo.h"
 
 @interface CLToolbarMenuItem : UIView
 {

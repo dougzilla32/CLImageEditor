@@ -23,7 +23,10 @@ let package = Package(
             name: "CLImageEditor",
             dependencies: [],
             path: "Sources/CLImageEditor",
-            publicHeadersPath: "include"
+            publicHeadersPath: "include",
+            cSettings: [
+                .headerSearchPath("include")
+            ]
         ),
     ]
 )

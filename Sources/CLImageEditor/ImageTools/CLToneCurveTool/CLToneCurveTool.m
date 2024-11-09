@@ -5,9 +5,9 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLToneCurveTool/CLToneCurveTool.h"
+#import "ImageTools/CLToneCurveTool/CLToneCurveTool.h"
 
-#import "include/Utils/CLSplineInterpolator.h"
+#import "Utils/CLSplineInterpolator.h"
 
 static NSString* const kCLToneCurveToolArrowIconName = @"arrowIconAssetsName";
 static NSString* const kCLToneCurveToolResetIconName = @"resetIconAssetsName";

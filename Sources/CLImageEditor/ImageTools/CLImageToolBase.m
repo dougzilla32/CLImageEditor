@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLImageToolBase.h"
+#import "ImageTools/CLImageToolBase.h"
 
 @implementation CLImageToolBase
 

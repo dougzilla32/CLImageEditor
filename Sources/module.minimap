@@ -1,6 +1,0 @@
-
-module CLImageEditor {
-    umbrella header "include/CLImageEditor.h"
-    export *
-    module * { export * }
-}

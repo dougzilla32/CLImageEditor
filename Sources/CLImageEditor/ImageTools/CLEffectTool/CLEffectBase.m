@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLEffectTool/CLEffectBase.h"
+#import "ImageTools/CLEffectTool/CLEffectBase.h"
 
 @implementation CLEffectBase
 

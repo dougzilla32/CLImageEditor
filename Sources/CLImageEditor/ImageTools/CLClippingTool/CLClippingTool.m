@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLClippingTool/CLClippingTool.h"
+#import "ImageTools/CLClippingTool/CLClippingTool.h"
 
 
 static NSString* const kCLClippingToolRatios = @"ratios";

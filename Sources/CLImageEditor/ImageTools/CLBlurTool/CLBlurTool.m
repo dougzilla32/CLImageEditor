@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLBlurTool/CLBlurTool.h"
+#import "ImageTools/CLBlurTool/CLBlurTool.h"
 
 static NSString* const kCLBlurToolNormalIconName = @"normalIconAssetsName";
 static NSString* const kCLBlurToolCircleIconName = @"circleIconAssetsName";

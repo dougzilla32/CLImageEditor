@@ -5,10 +5,10 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/ToolSettings/CLImageEditorTheme+Private.h"
+#import "ImageTools/ToolSettings/CLImageEditorTheme+Private.h"
 
-#import "include/CLImageEditor.h"
-#import "include/Utils/UIImage+Utility.h"
+#import "CLImageEditor.h"
+#import "Utils/UIImage+Utility.h"
 
 @implementation CLImageEditorTheme (Private)
 

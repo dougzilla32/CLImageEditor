@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/ToolSettings/CLCircleView.h"
+#import "ImageTools/ToolSettings/CLCircleView.h"
 
 @implementation CLCircleView
 

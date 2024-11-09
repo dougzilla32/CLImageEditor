@@ -7,7 +7,7 @@
 #import <UIKit/UIKit.h>
 #import "../../CLImageEditorTheme.h"
 
-#import "include/ImageTools/ToolSettings/CLToolbarMenuItem.h"
+#import "ImageTools/ToolSettings/CLToolbarMenuItem.h"
 
 @interface CLImageEditorTheme (Private)
 

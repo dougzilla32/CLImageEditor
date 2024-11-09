@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLFilterTool/CLFilterBase.h"
+#import "ImageTools/CLFilterTool/CLFilterBase.h"
 
 @implementation CLFilterBase
 

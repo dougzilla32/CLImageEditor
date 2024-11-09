@@ -5,9 +5,9 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLFilterTool/CLFilterTool.h"
+#import "ImageTools/CLFilterTool/CLFilterTool.h"
 
-#import "include/ImageTools/CLFilterTool/CLFilterBase.h"
+#import "ImageTools/CLFilterTool/CLFilterBase.h"
 
 
 @implementation CLFilterTool

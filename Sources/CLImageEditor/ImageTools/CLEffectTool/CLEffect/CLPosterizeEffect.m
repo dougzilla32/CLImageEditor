@@ -5,9 +5,9 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLEffectTool/CLEffect/CLPosterizeEffect.h"
+#import "ImageTools/CLEffectTool/CLEffect/CLPosterizeEffect.h"
 
-#import "include/Utils/UIView+Frame.h"
+#import "Utils/UIView+Frame.h"
 
 @implementation CLPosterizeEffect
 {

@@ -5,10 +5,10 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/ToolSettings/CLColorPickerView.h"
+#import "ImageTools/ToolSettings/CLColorPickerView.h"
 
-#import "include/ImageTools/ToolSettings/CLCircleView.h"
-#import "include/Utils/UIView+Frame.h"
+#import "ImageTools/ToolSettings/CLCircleView.h"
+#import "Utils/UIView+Frame.h"
 
 
 #pragma mark- Hue circle

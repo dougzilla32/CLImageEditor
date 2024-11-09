@@ -5,10 +5,10 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/ToolSettings/CLToolbarMenuItem.h"
+#import "ImageTools/ToolSettings/CLToolbarMenuItem.h"
 
-#import "include/ImageTools/ToolSettings/CLImageEditorTheme+Private.h"
-#import "include/Utils/UIView+Frame.h"
+#import "ImageTools/ToolSettings/CLImageEditorTheme+Private.h"
+#import "Utils/UIView+Frame.h"
 
 @implementation CLToolbarMenuItem
 {

@@ -6,7 +6,7 @@
 //  reference: http://www.cocoawithlove.com/2010/01/getting-subclasses-of-objective-c-class.html
 //
 
-#import "include/Utils/CLClassList.h"
+#import "Utils/CLClassList.h"
 
 #import <objc/runtime.h>
 

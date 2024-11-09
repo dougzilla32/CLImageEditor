@@ -5,9 +5,9 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLImageToolBase.h"
+#import "ImageTools/CLImageToolBase.h"
 
-#import "include/ImageTools/CLEffectTool/CLEffectBase.h"
+#import "ImageTools/CLEffectTool/CLEffectBase.h"
 
 @interface CLEffectTool : CLImageToolBase
 <CLEffectDelegate>

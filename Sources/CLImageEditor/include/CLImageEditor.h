@@ -17,8 +17,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "include/CLImageToolInfo.h"
-#import "include/CLImageEditorTheme.h"
+#import "CLImageToolInfo.h"
+#import "CLImageEditorTheme.h"
 
 @protocol CLImageEditorDelegate;
 @protocol CLImageEditorTransitionDelegate;

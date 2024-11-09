@@ -5,7 +5,7 @@
 //  Copyright (c) 2014年 CALACULU. All rights reserved.
 //
 
-#import "include/ImageTools/CLDrawTool/CLDrawTool.h"
+#import "ImageTools/CLDrawTool/CLDrawTool.h"
 
 static NSString* const kCLDrawToolEraserIconName = @"eraserIconAssetsName";
 
