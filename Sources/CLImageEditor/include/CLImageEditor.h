@@ -58,7 +58,7 @@ FOUNDATION_EXPORT const unsigned char MyObjCLibraryVersionString[];
 @end
 
 #import "ViewController/_CLImageEditorViewController.h"
-//#import "ImageTools/CLImageToolBase.h"
+#import "ImageTools/CLImageToolBase.h"
 #import "ImageTools/ToolSettings/CLCircleView.h"
 #import "ImageTools/ToolSettings/CLToolbarMenuItem.h"
 #import "ImageTools/ToolSettings/CLColorPickerView.h"

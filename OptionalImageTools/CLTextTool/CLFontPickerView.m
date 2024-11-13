@@ -7,7 +7,7 @@
 
 #import "CLFontPickerView.h"
 
-#import "UIView+Frame.h"
+#import "Utils/UIView+Frame.h"
 #import "CLPickerView.h"
 
 const CGFloat kCLFontPickerViewConstantFontSize = 14;

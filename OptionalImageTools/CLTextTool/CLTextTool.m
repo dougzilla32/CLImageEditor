@@ -7,8 +7,8 @@
 
 #import "CLTextTool.h"
 
-#import "CLCircleView.h"
-#import "CLColorPickerView.h"
+#import "ImageTools/ToolSettings/CLCircleView.h"
+#import "ImageTools/ToolSettings/CLColorPickerView.h"
 #import "CLFontPickerView.h"
 #import "CLTextLabel.h"
 

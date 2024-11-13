@@ -6,7 +6,7 @@
 //  CLImageEditor Author sho yakushiji.
 //
 
-#import "CLImageToolBase.h"
+#import "ImageTools/CLImageToolBase.h"
 
 @interface CLEmoticonTool : CLImageToolBase
 

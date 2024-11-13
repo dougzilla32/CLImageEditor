@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 CALACULU. All rights reserved.
 //
 
-#import "CLImageToolBase.h"
+#import "ImageTools/CLImageToolBase.h"
 
 @interface CLStickerTool : CLImageToolBase
 

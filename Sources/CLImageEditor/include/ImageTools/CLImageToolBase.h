@@ -14,7 +14,7 @@
 static const CGFloat kCLImageToolAnimationDuration = 0.3;
 static const CGFloat kCLImageToolFadeoutDuration   = 0.2;
 
-
+@class _CLImageEditorViewController;
 
 @interface CLImageToolBase : NSObject<CLImageToolProtocol>
 {

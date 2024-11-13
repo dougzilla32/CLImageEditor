@@ -7,7 +7,7 @@
 
 #import "CLStickerTool.h"
 
-#import "CLCircleView.h"
+#import "ImageTools/ToolSettings/CLCircleView.h"
 
 static NSString* const kCLStickerToolStickerPathKey = @"stickerPath";
 static NSString* const kCLStickerToolDeleteIconName = @"deleteIconAssetsName";

@@ -7,11 +7,11 @@
 
 #import "CLTextSettingView.h"
 
-#import "UIView+Frame.h"
+#import "Utils/UIView+Frame.h"
 #import "CLImageEditorTheme.h"
-#import "CLColorPickerView.h"
+#import "ImageTools/ToolSettings/CLColorPickerView.h"
 #import "CLFontPickerView.h"
-#import "CLCircleView.h"
+#import "ImageTools/ToolSettings/CLCircleView.h"
 
 @interface CLTextSettingView()
 <CLColorPickerViewDelegate, CLFontPickerViewDelegate, UITextViewDelegate>

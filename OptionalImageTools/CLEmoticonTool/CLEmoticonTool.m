@@ -8,7 +8,7 @@
 
 #import "CLEmoticonTool.h"
 
-#import "CLCircleView.h"
+#import "ImageTools/ToolSettings/CLCircleView.h"
 
 static NSString* const kCLEmoticonToolEmoticonPathKey = @"EmoticonPath";
 static NSString* const kCLEmoticonToolDeleteIconName = @"deleteIconAssetsName";
