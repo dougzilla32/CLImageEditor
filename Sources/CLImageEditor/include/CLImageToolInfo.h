@@ -13,7 +13,7 @@
 @property (nonatomic, strong)   NSString *title;
 @property (nonatomic, assign)   BOOL      available;
 @property (nonatomic, assign)   CGFloat   dockedNumber;
-@property (nonatomic, strong)   NSString *iconImagePath;
+@property (nonatomic, strong)   NSString *iconImageName;
 @property (nonatomic, readonly) UIImage  *iconImage;
 @property (nonatomic, readonly) NSArray  *subtools;
 @property (nonatomic, strong) NSMutableDictionary *optionalInfo;

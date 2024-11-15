@@ -40,12 +40,17 @@
     return self.theme.bundle;
 }
 
++ (UIImage*)iconNamed:(NSString*)name
+{
+    return [UIImage imageNamed:name inBundle:self.bundle compatibleWithTraitCollection:nil];
+}
+
 + (UIImage*)imageNamed:(Class)path image:(NSString*)image
 {
     CLImageEditorTheme *theme = [CLImageEditorTheme theme];
-    NSString *imagePath = [self.bundle.bundlePath stringByAppendingString:[NSString stringWithFormat:@"/%@/%@/%@", path, theme.toolIconColor, image]];
-    
-    return [UIImage fastImageWithContentsOfFile:imagePath];
+    NSString *name = [NSString stringWithFormat:@"%@-%@-%@", path, theme.toolIconColor, image];
+
+    return [UIImage imageNamed:name inBundle:self.bundle compatibleWithTraitCollection:nil];
 }
 
 + (NSString*)localizedString:(NSString*)key withDefault:defaultValue

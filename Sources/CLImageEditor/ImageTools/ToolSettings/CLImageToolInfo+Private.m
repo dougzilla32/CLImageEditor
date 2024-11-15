@@ -26,7 +26,7 @@
         info.title     = [toolClass defaultTitle];
         info.available = YES;
         info.dockedNumber = [toolClass defaultDockedNumber];
-        info.iconImagePath = [toolClass defaultIconImagePath];
+        info.iconImageName = [toolClass defaultIconImageName];
         info.subtools = [toolClass subtools];
         info.optionalInfo = [[toolClass optionalInfo] mutableCopy];
         

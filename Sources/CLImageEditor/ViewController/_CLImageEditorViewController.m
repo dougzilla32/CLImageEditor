@@ -502,7 +502,7 @@ static const CGFloat kMenuBarHeight = 80.0f;
 
 #pragma mark- ImageTool setting
 
-+ (NSString*)defaultIconImagePath
++ (NSString*)defaultIconImageName
 {
     return nil;
 }

@@ -24,7 +24,7 @@ let package = Package(
             dependencies: [],
             path: "Sources/CLImageEditor",
             resources: [
-                .copy("CLImageEditor.bundle")
+                .process("Resources")
             ],
             publicHeadersPath: "include",
             cSettings: [

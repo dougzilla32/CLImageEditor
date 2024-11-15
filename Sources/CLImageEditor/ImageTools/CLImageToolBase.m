@@ -19,10 +19,10 @@
     return self;
 }
 
-+ (NSString*)defaultIconImagePath
++ (NSString*)defaultIconImageName
 {
     CLImageEditorTheme *theme = [CLImageEditorTheme theme];
-    return [NSString stringWithFormat:@"%@/%@/%@/icon.png", CLImageEditorTheme.bundle.bundlePath, NSStringFromClass([self class]), theme.toolIconColor];
+    return [NSString stringWithFormat:@"%@-%@-icon.png", NSStringFromClass([self class]), theme.toolIconColor];
 }
 
 + (CGFloat)defaultDockedNumber
@@ -83,7 +83,7 @@
     NSString *iconName = self.toolInfo.optionalInfo[key];
     
     if(iconName.length>0){
-        return [UIImage imageNamed:iconName];
+        return [CLImageEditorTheme iconNamed:iconName];
     }
     else{
         return [CLImageEditorTheme imageNamed:[self class] image:defaultImageName];

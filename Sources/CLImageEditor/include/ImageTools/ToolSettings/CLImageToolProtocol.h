@@ -10,7 +10,7 @@
 @protocol CLImageToolProtocol
 
 @required
-+ (NSString*)defaultIconImagePath;
++ (NSString*)defaultIconImageName;
 + (CGFloat)defaultDockedNumber;
 + (NSString*)defaultTitle;
 + (BOOL)isAvailable;

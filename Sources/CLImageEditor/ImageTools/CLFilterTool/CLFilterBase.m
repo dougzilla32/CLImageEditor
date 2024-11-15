@@ -9,7 +9,7 @@
 
 @implementation CLFilterBase
 
-+ (NSString*)defaultIconImagePath
++ (NSString*)defaultIconImageName
 {
     return nil;
 }

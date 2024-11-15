@@ -91,7 +91,7 @@
     [super setToolInfo:toolInfo];
     
     self.title = self.toolInfo.title;
-    if(self.toolInfo.iconImagePath){
+    if(self.toolInfo.iconImageName){
         self.iconImage = self.toolInfo.iconImage;
     }
     else{

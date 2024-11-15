@@ -11,9 +11,9 @@
 
 #pragma mark-
 
-+ (NSString*)defaultIconImagePath
++ (NSString*)defaultIconImageName
 {
-    return [NSString stringWithFormat:@"%@/CLEffectTool/%@.png", CLImageEditorTheme.bundle.bundlePath, NSStringFromClass([self class])];
+    return [NSString stringWithFormat:@"CLEffectTool-%@.png", NSStringFromClass([self class])];
 }
 
 + (CGFloat)defaultDockedNumber

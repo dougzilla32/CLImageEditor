@@ -42,7 +42,7 @@ static CLImageEditorTheme *_sharedInstance = nil;
 {
     self = [super init];
     if (self) {
-        self.bundleName                     = @"CLImageEditor";
+        self.bundleName                     = @"CLImageEditor_CLImageEditor";
         self.backgroundColor                = [UIColor whiteColor];
         self.toolbarColor                   = [UIColor colorWithWhite:1 alpha:0.8];
 		self.toolIconColor                  = @"black";

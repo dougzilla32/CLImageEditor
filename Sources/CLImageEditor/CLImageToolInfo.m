@@ -7,6 +7,7 @@
 
 #import "include/CLImageToolInfo.h"
 #import "include/Utils/UIImage+Utility.h"
+#import "include/ImageTools/ToolSettings/CLImageEditorTheme+Private.h"
 
 @interface CLImageToolInfo()
 @property (nonatomic, strong) NSString *toolName;
@@ -34,7 +35,7 @@
     [self setObject:self.title forKey:@"title" inDictionary:dict];
     [self setObject:((self.available)?@"YES":@"NO") forKey:@"available" inDictionary:dict];
     [self setObject:@(self.dockedNumber) forKey:@"dockedNumber" inDictionary:dict];
-    [self setObject:self.iconImagePath forKey:@"iconImagePath" inDictionary:dict];
+    [self setObject:self.iconImageName forKey:@"iconImageName" inDictionary:dict];
     [self setObject:array forKey:@"subtools" inDictionary:dict];
     if(self.optionalInfo){
         [self setObject:self.optionalInfo forKey:@"optionalInfo" inDictionary:dict];
@@ -66,7 +67,7 @@
 
 - (UIImage*)iconImage
 {
-    return [UIImage fastImageWithContentsOfFile:self.iconImagePath];
+    return [CLImageEditorTheme iconNamed:self.iconImageName];
 }
 
 - (NSString*)toolName

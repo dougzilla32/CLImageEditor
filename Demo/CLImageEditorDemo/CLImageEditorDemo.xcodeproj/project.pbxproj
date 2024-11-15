@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		91D749C62CE42CD8003BDFAE /* CLImageEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 91D749C52CE42CD8003BDFAE /* CLImageEditor */; };
+		91FAAC762CE5AC1000E0DF19 /* CLImageEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 91FAAC752CE5AC1000E0DF19 /* CLImageEditor */; };
 		AD1D2C6B1897538900752339 /* CLGPUImageVignetteFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1D2C6A1897538900752339 /* CLGPUImageVignetteFilter.m */; };
 		AD29BB5D18EA471A0084D3D6 /* CLEmoticonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29BB5C18EA471A0084D3D6 /* CLEmoticonTool.m */; };
 		AD359C321954FB4D00B763CF /* CLSplashTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359C311954FB4D00B763CF /* CLSplashTool.m */; };
@@ -86,6 +87,7 @@
 				AD85D68718457388003106A3 /* Accelerate.framework in Frameworks */,
 				91D749C62CE42CD8003BDFAE /* CLImageEditor in Frameworks */,
 				AD5C1E0618350DC400790989 /* CoreGraphics.framework in Frameworks */,
+				91FAAC762CE5AC1000E0DF19 /* CLImageEditor in Frameworks */,
 				AD5C1E0818350DC400790989 /* UIKit.framework in Frameworks */,
 				AD5C1E0418350DC400790989 /* Foundation.framework in Frameworks */,
 			);
@@ -271,7 +273,7 @@
 			);
 			mainGroup = AD5C1DF718350DC400790989;
 			packageReferences = (
-				91D749C42CE42CD8003BDFAE /* XCLocalSwiftPackageReference "../../../CLImageEditor" */,
+				91FAAC742CE5AC1000E0DF19 /* XCLocalSwiftPackageReference "../../../CLImageEditor" */,
 			);
 			productRefGroup = AD5C1E0118350DC400790989 /* Products */;
 			projectDirPath = "";
@@ -500,7 +502,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		91D749C42CE42CD8003BDFAE /* XCLocalSwiftPackageReference "../../../CLImageEditor" */ = {
+		91FAAC742CE5AC1000E0DF19 /* XCLocalSwiftPackageReference "../../../CLImageEditor" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../../CLImageEditor;
 		};
@@ -508,6 +510,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		91D749C52CE42CD8003BDFAE /* CLImageEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CLImageEditor;
+		};
+		91FAAC752CE5AC1000E0DF19 /* CLImageEditor */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CLImageEditor;
 		};

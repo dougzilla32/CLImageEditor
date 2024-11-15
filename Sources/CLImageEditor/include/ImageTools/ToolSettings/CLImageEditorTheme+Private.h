@@ -13,6 +13,7 @@
 
 + (NSString*)bundleName;
 + (NSBundle*)bundle;
++ (UIImage*)iconNamed:(NSString*)name;
 + (UIImage*)imageNamed:(Class)path image:(NSString*)image;
 + (NSString*)localizedString:(NSString*)key withDefault:defaultValue;
 
